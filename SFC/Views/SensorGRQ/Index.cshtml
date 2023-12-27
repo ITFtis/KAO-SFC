@@ -1,0 +1,79 @@
+﻿@using Dou.Misc.Extension
+@Html.MenuMap()
+<style>
+    .download-container > .row {
+        padding-top: 2rem;
+    }
+
+    .download-container > .row > label {
+        border-bottom: 1px #eee solid;
+        /*padding-bottom: .3rem;*/
+        margin-bottom: .5rem;
+        background-color:#f5f5f5;
+        padding-bottom:.2rem;
+        padding-top:.2rem;
+    }
+
+    @@media (max-width: 576px) {
+        .download-container > .row {
+            padding-top: .6rem;
+        }
+    }
+</style>
+<script src="~/Scripts/gis/other/xlsx/xlsx.full.min.js"></script>
+
+<div class="container-fluid download-container">
+    <div class="row">
+        <label class="col-12"><span class="glyphicon glyphicon-th-list"></span>選擇查詢資料種類</label>
+        <div class="col-sm-3">
+            <select class="data-type-select form-select">
+                <option value="0">淹水感測器</option>
+                <option value="1">水位站</option>
+                <option value="2">CCTV</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-12"><span class="glyphicon glyphicon-calendar"></span>選擇查詢資料月份</label>
+        <div class="col-sm-3">
+            <input type="month" class="month-input form-control col-4" value="@(DateTime.Now.ToString("yyyy-MM"))" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <span class="btn btn-info form-control glyphicon glyphicon-download-alt">下載資料</span>
+        </div>
+    </div>
+    <input type="hidden" class="url-temp" value="@ViewBag.urltemp" />
+</div>
+<script>
+    $(document).ready(function () {
+        $('.btn').on('click', function () {
+            var $btn = $(this);
+            var _type = $('.data-type-select').val();
+            var _month = $('.month-input').val();
+            if (true) {
+                helper.misc.showBusyIndicator($btn);
+                $.get(app.siteRoot + 'SensorGRQ/Download?type=' + _type + '&month=' + _month, function (u) {
+                    helper.misc.hideBusyIndicator($btn);
+                    download(u, _month + '-' + $('.data-type-select option:selected').text() +'妥善率');
+                });
+            } else {
+                var t = _type == 0 ? 4500 : (_type == 1 ? 10000 : 2000);
+                helper.jspanel.jspAlertMsg(undefined, { content: '資料產製中，請稍待...', autoclose: t });
+
+                var u = $('.url-temp').val().replace('{type}', $('.data-type-select').val()).
+                    replace('{month}', _month);
+                download(u);
+            }
+        });
+        var download = function (u, n) {
+            var _$a = $("<a download>").hide().appendTo("body");
+            _$a[0].href = u;
+            if (n)
+                _$a[0].download = n + ".xlsx";
+            _$a[0].click();
+            _$a.remove();
+        }
+    });
+</script>

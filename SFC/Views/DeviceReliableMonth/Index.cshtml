@@ -1,0 +1,30 @@
+﻿<link href="~/Content/douModal.css" rel="stylesheet" />
+<style>
+    body {
+        --dou-menu-height: 0 !important;
+    }
+
+    header.fixed-top {
+        display: none;
+    }
+</style>
+@using Dou.Misc.Extension
+@using SFC.Controllers.Device
+
+
+
+@Html.DataManagerOptionsJavascript(".data-manager-container_", "douoptions")
+@Html.MenuMap()
+
+@*@Html.DataManagerTable()*@
+<table class="data-manager-container data-manager-container_"> </table>
+
+
+
+
+<script>
+    $(document).ready(() => {
+        $(".data-manager-container_").DouEditableTable(douoptions); //初始dou table
+    })
+
+</script>

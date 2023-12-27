@@ -1,0 +1,58 @@
+﻿<link rel="stylesheet" href="~/Content/prj/rthydro.css" />
+<link rel="stylesheet" href="~/Content/prj/sewerdashboard.css" />
+<script src="https://code.highcharts.com/highcharts.js"></script>
+@*<script src="~/Scripts/prj/data.js"></script>
+    <script src="~/Scripts/prj/sub/floodQuery.js"></script>
+    <script src="~/Scripts/prj/createMapHelper.js"></script>
+    <script src="~/Scripts/prj/ddashboard.js"></script>*@
+@Scripts.Render("~/Scripts/prj/sewerdashboard")
+<script src="~/Scripts/gis/ext/meter/CctvCtrl.js"></script>
+<div class="container-fluid cdashboard-container">
+    <div class="row main-title">
+        <label><span>查詢時間:</span><span class="query-time">---</span></label>
+    </div>
+    <div class="row main-content">
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">下水道水位站</div>
+            <div class="cell-content sewer-content"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">鄰近水位感應器</div>
+            <div class="cell-content water-content"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">鄰近地理空間資訊</div>
+            <div id="map" class="cell-content"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">鄰近路淹感測器</div>
+            <div class="cell-content fsensor-content"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">鄰近參考雨量站</div>
+            <div class="cell-content rain-content"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 display-cell">
+            <div class="cell-title">鄰近現場即時影像</div>
+            <div class="cell-content cctv-content"></div>
+        </div>
+    </div>
+</div>
+
+<div id="mainmenu" class="offdisplay navbar fixed-top " style="z-index:950;" data-ctrl-cache="true">
+
+    <div class="container-fluid" style="width:100%">
+        <div class="navbar-header">
+
+        </div>
+        <div class="navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a href="#main-ctrl" class="popu-ctrl-menu nav-link" data-default-show="true" data-theme="light"><span class="glyphicon glyphicon-th-list"></span><span class="sewer-list-title">下水道感應器清單</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="popu-ctrl-container row-fluid fixed-at-left fixed-single">
+    <div id="main-ctrl" class="meter"></div>
+</div>

@@ -1,0 +1,2378 @@
+[
+	{
+		"cctv_stn_series": "488",
+		"stn_name": "淵源橋",
+		"lon": 120.211689,
+		"lat": 22.818424,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "永安區",
+		"basin": "",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "1488"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "489",
+		"stn_name": "月世界抽水平台",
+		"lon": 120.393385,
+		"lat": 22.884134,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "田寮區",
+		"basin": "二仁溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "1489"
+			}
+		]
+	},	
+	{
+		"cctv_stn_series": "470",
+		"stn_name": "楠梓LED看板西向",
+		"lon": 120.324509,
+		"lat": 22.720964,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "577"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "471",
+		"stn_name": "楠梓LED看板東向",
+		"lon": 120.32457,
+		"lat": 22.721085,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "578"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "472",
+		"stn_name": "觀音湖",
+		"lon": 120.369,
+		"lat": 22.70708,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "581"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "511",
+		"stn_name": "觀音湖上游",
+		"lon": 120.3782,
+		"lat": 22.71182,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "1510"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "473",
+		"stn_name": "國道末端箱體",
+		"lon": 120.3245438,
+		"lat": 22.5766245,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "582"
+			},
+			{
+				"name": "",
+				"channel": "583"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "483",
+		"stn_name": "旗陽橋土地公廟旁",
+		"lon": 120.507,
+		"lat": 22.8903,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "美濃區",
+		"basin": "福安排水",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "587"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "484",
+		"stn_name": "88橋下游處",
+		"lon": 120.40394,
+		"lat": 22.586319,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "大寮區",
+		"basin": "林園排水",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "586"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "485",
+		"stn_name": "仁孝路橋",
+		"lon": 120.35195,
+		"lat": 22.67613,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "曹公新圳排水",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "584"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "364",
+		"stn_name": "澄觀橋",
+		"lon": 120.34908,
+		"lat": 22.6838,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "350"
+			},
+			{
+				"name": "2",
+				"channel": "351"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "365",
+		"stn_name": "九孔橋",
+		"lon": 120.2898611,
+		"lat": 22.82533333,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "352"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "486",
+		"stn_name": "岡山橋",
+		"lon": 120.28776,
+		"lat": 22.805095,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "585"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "487",
+		"stn_name": "林園龍潭寺",
+		"lon": 120.3809,
+		"lat": 22.51105,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "林園區",
+		"basin": "港子埔排水幹線",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "591"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "366",
+		"stn_name": "下坑里橋",
+		"lon": 120.29883,
+		"lat": 22.8494,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "路竹區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "353"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "367",
+		"stn_name": "大樹平安橋站",
+		"lon": 120.43761,
+		"lat": 22.71966,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "大樹區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "354"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "400",
+		"stn_name": "台泥A池",
+		"lon": 120.274103,
+		"lat": 22.647061,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "405"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "368",
+		"stn_name": "中圳橋",
+		"lon": 120.3480278,
+		"lat": 22.73763889,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "大社區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "355"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "401",
+		"stn_name": "台泥B池",
+		"lon": 120.274203,
+		"lat": 22.647061,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "406"
+			},
+			{
+				"name": "2",
+				"channel": "407"
+			},
+			{
+				"name": "3",
+				"channel": "408"
+			},
+			{
+				"name": "4",
+				"channel": "409"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "369",
+		"stn_name": "中港橋",
+		"lon": 120.3172222,
+		"lat": 22.86588889,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "阿蓮區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "356"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "402",
+		"stn_name": "本安里滯洪池",
+		"lon": 120.3382027,
+		"lat": 22.6512455,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "410"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "403",
+		"stn_name": "本和里滯洪池",
+		"lon": 120.3249555,
+		"lat": 22.65959122,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "411"
+			},
+			{
+				"name": "2",
+				"channel": "412"
+			},
+			{
+				"name": "3",
+				"channel": "413"
+			},
+			{
+				"name": "4",
+				"channel": "414"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "404",
+		"stn_name": "本和里滯洪池K幹線",
+		"lon": 120.311956,
+		"lat": 22.65959011,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "415"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "405",
+		"stn_name": "永安滯洪池",
+		"lon": 120.242536,
+		"lat": 22.814551,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "永安區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "2",
+				"channel": "417"
+			},
+			{
+				"name": "1",
+				"channel": "416"
+			},
+			{
+				"name": "3",
+				"channel": "418"
+			},
+			{
+				"name": "4",
+				"channel": "580"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "406",
+		"stn_name": "典寶溪A區滯洪池",
+		"lon": 120.2837,
+		"lat": 22.7798,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "岡山區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "419"
+			},
+			{
+				"name": "2",
+				"channel": "420"
+			},
+			{
+				"name": "3",
+				"channel": "421"
+			},
+			{
+				"name": "4",
+				"channel": "422"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "407",
+		"stn_name": "典寶溪B區滯洪池",
+		"lon": 120.2821,
+		"lat": 22.7739,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "岡山區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "423"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "408",
+		"stn_name": "金獅湖",
+		"lon": 120.3286589,
+		"lat": 22.66904988,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "424"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "409",
+		"stn_name": "金獅湖(E閘門)",
+		"lon": 120.328455,
+		"lat": 22.663868,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "425"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "370",
+		"stn_name": "仁武-八涳橋下游段",
+		"lon": 120.3386308,
+		"lat": 22.69592466,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "357"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "371",
+		"stn_name": "仁武-八涳橋上游段",
+		"lon": 120.3436457,
+		"lat": 22.69124234,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "359"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "372",
+		"stn_name": "仁雄橋",
+		"lon": 120.349586,
+		"lat": 22.679844,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "360"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "373",
+		"stn_name": "手巾寮排水出口站",
+		"lon": 120.48622,
+		"lat": 22.84677,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "旗山區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "361"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "374",
+		"stn_name": "右昌",
+		"lon": 120.2815066,
+		"lat": 22.7200431,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "362"
+			},
+			{
+				"name": "2",
+				"channel": "363"
+			},
+			{
+				"name": "3",
+				"channel": "364"
+			},
+			{
+				"name": "4",
+				"channel": "365"
+			},
+			{
+				"name": "5",
+				"channel": "366"
+			},
+			{
+				"name": "6",
+				"channel": "367"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "375",
+		"stn_name": "右昌大排",
+		"lon": 120.291257,
+		"lat": 22.723518,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "368"
+			},
+			{
+				"name": "2",
+				"channel": "369"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "376",
+		"stn_name": "右昌大橋",
+		"lon": 120.29134,
+		"lat": 22.72459,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "370"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "377",
+		"stn_name": "玉庫二號橋",
+		"lon": 120.310511,
+		"lat": 22.845886,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "阿蓮區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "371"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "410",
+		"stn_name": "前鋒子滯洪池",
+		"lon": 120.3175,
+		"lat": 22.8352,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "426"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "378",
+		"stn_name": "至仁橋",
+		"lon": 120.40675,
+		"lat": 22.52224,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "林園區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "372"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "411",
+		"stn_name": "獅龍溪滯洪池",
+		"lon": 120.3586,
+		"lat": 22.693,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "427"
+			},
+			{
+				"name": "2",
+				"channel": "428"
+			},
+			{
+				"name": "3",
+				"channel": "429"
+			},
+			{
+				"name": "4",
+				"channel": "430"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "379",
+		"stn_name": "岡山-高捷北機場前(林頭橋)",
+		"lon": 120.3055001,
+		"lat": 22.76771469,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "橋頭區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "373"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "412",
+		"stn_name": "蓮池潭1區",
+		"lon": 120.299738,
+		"lat": 22.68507451,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "431"
+			},
+			{
+				"name": "2",
+				"channel": "432"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "413",
+		"stn_name": "蓮池潭2區",
+		"lon": 120.3001389,
+		"lat": 22.68931103,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "433"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "414",
+		"stn_name": "蓮池潭3區",
+		"lon": 120.2947528,
+		"lat": 22.67871046,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "434"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "415",
+		"stn_name": "蓮池潭4區",
+		"lon": 120.2986759,
+		"lat": 22.67862467,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "435"
+			},
+			{
+				"name": "2",
+				"channel": "436"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "416",
+		"stn_name": "蓮池潭5區",
+		"lon": 120.2917827,
+		"lat": 22.68058609,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "437"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "417",
+		"stn_name": "蓮池潭6區",
+		"lon": 120.2951,
+		"lat": 22.6793,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "左營區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "438"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "418",
+		"stn_name": "寶業里滯洪池",
+		"lon": 120.3458,
+		"lat": 22.6387,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "439"
+			},
+			{
+				"name": "2",
+				"channel": "440"
+			},
+			{
+				"name": "3",
+				"channel": "441"
+			},
+			{
+				"name": "4",
+				"channel": "442"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "419",
+		"stn_name": "七賢",
+		"lon": 120.2859851,
+		"lat": 22.62970258,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鹽埕區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "443"
+			},
+			{
+				"name": "2",
+				"channel": "444"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "380",
+		"stn_name": "東新橋",
+		"lon": 120.4916715,
+		"lat": 22.88307018,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "旗山區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "374"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "381",
+		"stn_name": "拷潭排水內坑站",
+		"lon": 120.38047,
+		"lat": 22.58644,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "大寮區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "375"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "382",
+		"stn_name": "美濃湖",
+		"lon": 120.5515218,
+		"lat": 22.90507355,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "美濃區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "376"
+			},
+			{
+				"name": "2",
+				"channel": "588"
+			},
+			{
+				"name": "3",
+				"channel": "589"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "383",
+		"stn_name": "美濃-永安橋(三夾水)",
+		"lon": 120.5401189,
+		"lat": 22.8993739,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "美濃區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "2",
+				"channel": "378"
+			},
+			{
+				"name": "1",
+				"channel": "377"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "384",
+		"stn_name": "美濃-泰順橋",
+		"lon": 120.5415598,
+		"lat": 22.90109464,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "美濃區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "379"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "385",
+		"stn_name": "茄萣站",
+		"lon": 120.184445,
+		"lat": 22.897329,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "茄萣區",
+		"basin": "茄萣沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "380"
+			},
+			{
+				"name": "2",
+				"channel": "381"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "386",
+		"stn_name": "海埔橋",
+		"lon": 120.223403,
+		"lat": 22.897256,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "湖內區",
+		"basin": "茄萣沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "382"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "387",
+		"stn_name": "鳥松-長庚醫院停車場旁",
+		"lon": 120.3559603,
+		"lat": 22.6504176,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "鳥松區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "383"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "420",
+		"stn_name": "二號運河下游段",
+		"lon": 120.2869071,
+		"lat": 22.63226419,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前金區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "445"
+			},
+			{
+				"name": "2",
+				"channel": "446"
+			},
+			{
+				"name": "3",
+				"channel": "447"
+			},
+			{
+				"name": "4",
+				"channel": "448"
+			},
+			{
+				"name": "5",
+				"channel": "449"
+			},
+			{
+				"name": "6",
+				"channel": "450"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "421",
+		"stn_name": "力行",
+		"lon": 120.2852059,
+		"lat": 22.63742028,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "451"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "389",
+		"stn_name": "媽祖港橋",
+		"lon": 120.3224167,
+		"lat": 22.58872222,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "385"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "422",
+		"stn_name": "大義",
+		"lon": 120.2844638,
+		"lat": 22.61914803,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鹽埕區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "452"
+			},
+			{
+				"name": "2",
+				"channel": "453"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "423",
+		"stn_name": "中崙水位監視站",
+		"lon": 120.354508,
+		"lat": 22.593414,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鳳山區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "2",
+				"channel": "455"
+			},
+			{
+				"name": "1",
+				"channel": "454"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "424",
+		"stn_name": "中華路2211巷抽水站",
+		"lon": 120.2924886,
+		"lat": 22.64958973,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "456"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "425",
+		"stn_name": "五甲橋",
+		"lon": 120.3228778,
+		"lat": 22.58914319,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "457"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "426",
+		"stn_name": "五號船渠",
+		"lon": 120.3111851,
+		"lat": 22.60147454,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "458"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "427",
+		"stn_name": "六合",
+		"lon": 120.2877615,
+		"lat": 22.62856359,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前金區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "459"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "428",
+		"stn_name": "民生",
+		"lon": 120.2901805,
+		"lat": 22.62350813,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前金區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "460"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "429",
+		"stn_name": "永安-戰車壕溝抽水站",
+		"lon": 120.2193724,
+		"lat": 22.80526117,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "永安區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "461"
+			},
+			{
+				"name": "2",
+				"channel": "462"
+			},
+			{
+				"name": "3",
+				"channel": "463"
+			},
+			{
+				"name": "4",
+				"channel": "464"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "390",
+		"stn_name": "瑞峰橋",
+		"lon": 120.483402,
+		"lat": 22.890771,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "旗山區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "386"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "391",
+		"stn_name": "嘉興橋",
+		"lon": 120.30189,
+		"lat": 22.81571,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "387"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "392",
+		"stn_name": "鳳山-大東橋",
+		"lon": 120.3650846,
+		"lat": 22.62450472,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "鳳山區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "3",
+				"channel": "390"
+			},
+			{
+				"name": "1",
+				"channel": "388"
+			},
+			{
+				"name": "2",
+				"channel": "389"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "393",
+		"stn_name": "鳳山圳滯洪池站",
+		"lon": 120.37997,
+		"lat": 22.63927,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "鳥松區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "391"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "394",
+		"stn_name": "鳳山-曹公圳",
+		"lon": 120.356098,
+		"lat": 22.630924,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "大樹區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "392"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "395",
+		"stn_name": "鯤洲排水出口",
+		"lon": 120.47981,
+		"lat": 22.84792,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "旗山區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "393"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "396",
+		"stn_name": "鹽埔橋",
+		"lon": 120.28132,
+		"lat": 22.76612,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "橋頭區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "394"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "430",
+		"stn_name": "田厝排水",
+		"lon": 120.301532,
+		"lat": 22.837201,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "阿蓮區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "465"
+			},
+			{
+				"name": "2",
+				"channel": "466"
+			},
+			{
+				"name": "3",
+				"channel": "467"
+			},
+			{
+				"name": "4",
+				"channel": "468"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "397",
+		"stn_name": "大愛滯洪池",
+		"lon": 120.545604,
+		"lat": 22.969584,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "杉林區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "395"
+			},
+			{
+				"name": "2",
+				"channel": "396"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "431",
+		"stn_name": "岡山-五甲尾抽水站",
+		"lon": 120.293155,
+		"lat": 22.82625802,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "469"
+			},
+			{
+				"name": "2",
+				"channel": "470"
+			},
+			{
+				"name": "3",
+				"channel": "471"
+			},
+			{
+				"name": "4",
+				"channel": "472"
+			},
+			{
+				"name": "5",
+				"channel": "473"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "398",
+		"stn_name": "山仔頂溝滯洪池",
+		"lon": 120.3795,
+		"lat": 22.635,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "大寮區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "397"
+			},
+			{
+				"name": "2",
+				"channel": "398"
+			},
+			{
+				"name": "3",
+				"channel": "399"
+			},
+			{
+				"name": "4",
+				"channel": "400"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "432",
+		"stn_name": "岡山-潭底小抽水站",
+		"lon": 120.300287,
+		"lat": 22.83560893,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "474"
+			},
+			{
+				"name": "2",
+				"channel": "475"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "399",
+		"stn_name": "北屋",
+		"lon": 120.333674,
+		"lat": 22.680058,
+		"source": "水利局",
+		"type": "滯洪池",
+		"town": "仁武區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "401"
+			},
+			{
+				"name": "2",
+				"channel": "402"
+			},
+			{
+				"name": "3",
+				"channel": "403"
+			},
+			{
+				"name": "4",
+				"channel": "404"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "433",
+		"stn_name": "岡山-潭底抽水站",
+		"lon": 120.2984298,
+		"lat": 22.8292072,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "476"
+			},
+			{
+				"name": "2",
+				"channel": "477"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "434",
+		"stn_name": "治平",
+		"lon": 120.2914592,
+		"lat": 22.64922396,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "478"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "435",
+		"stn_name": "阿蓮-玉庫抽水站",
+		"lon": 120.300644,
+		"lat": 22.84010766,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "阿蓮區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "479"
+			},
+			{
+				"name": "2",
+				"channel": "480"
+			},
+			{
+				"name": "3",
+				"channel": "481"
+			},
+			{
+				"name": "4",
+				"channel": "482"
+			},
+			{
+				"name": "5",
+				"channel": "483"
+			},
+			{
+				"name": "6",
+				"channel": "484"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "436",
+		"stn_name": "哈瑪星",
+		"lon": 120.2696587,
+		"lat": 22.62416411,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "485"
+			},
+			{
+				"name": "2",
+				"channel": "486"
+			},
+			{
+				"name": "3",
+				"channel": "487"
+			},
+			{
+				"name": "4",
+				"channel": "488"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "437",
+		"stn_name": "高公",
+		"lon": 120.3269014,
+		"lat": 22.58570133,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "489"
+			},
+			{
+				"name": "2",
+				"channel": "490"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "438",
+		"stn_name": "仁武-曹公新圳",
+		"lon": 120.3427943,
+		"lat": 22.68952973,
+		"source": "水利局",
+		"type": "河川水位",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "491"
+			},
+			{
+				"name": "2",
+				"channel": "590"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "439",
+		"stn_name": "梓官-典寶抽水站",
+		"lon": 120.2667053,
+		"lat": 22.738841,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "橋頭區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "492"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "440",
+		"stn_name": "鳥松-大智移動式抽水站",
+		"lon": 120.3608456,
+		"lat": 22.66438998,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鳥松區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "493"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "441",
+		"stn_name": "鳥松-仁美抽水站",
+		"lon": 120.3914104,
+		"lat": 22.64874128,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鳥松區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "494"
+			},
+			{
+				"name": "2",
+				"channel": "495"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "442",
+		"stn_name": "惠豐抽水站",
+		"lon": 120.3212176,
+		"lat": 22.7253451,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "496"
+			},
+			{
+				"name": "2",
+				"channel": "497"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "443",
+		"stn_name": "新光站",
+		"lon": 120.298901,
+		"lat": 22.610091,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "498"
+			},
+			{
+				"name": "2",
+				"channel": "499"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "444",
+		"stn_name": "新樂",
+		"lon": 120.2890955,
+		"lat": 22.62264541,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鹽埕區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "500"
+			},
+			{
+				"name": "2",
+				"channel": "501"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "445",
+		"stn_name": "新濱",
+		"lon": 120.2723048,
+		"lat": 22.61932339,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "502"
+			},
+			{
+				"name": "2",
+				"channel": "503"
+			},
+			{
+				"name": "3",
+				"channel": "504"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "446",
+		"stn_name": "鼓山",
+		"lon": 120.2814607,
+		"lat": 22.64297543,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "505"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "447",
+		"stn_name": "鼓山運河下游",
+		"lon": 120.277982,
+		"lat": 22.64406,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "506"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "448",
+		"stn_name": "鼓山運河上游",
+		"lon": 120.27334,
+		"lat": 22.65113,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "507"
+			},
+			{
+				"name": "2",
+				"channel": "508"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "449",
+		"stn_name": "鳳林抽水站",
+		"lon": 120.3398193,
+		"lat": 22.5278406,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "小港區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "509"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "450",
+		"stn_name": "興旺",
+		"lon": 120.309766,
+		"lat": 22.58764246,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "510"
+			},
+			{
+				"name": "2",
+				"channel": "511"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "451",
+		"stn_name": "興隆",
+		"lon": 120.2844637,
+		"lat": 22.63608573,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "鼓山區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "512"
+			},
+			{
+				"name": "2",
+				"channel": "513"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "452",
+		"stn_name": "彌陀-東四抽水站",
+		"lon": 120.232913,
+		"lat": 22.79281076,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "彌陀區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "514"
+			},
+			{
+				"name": "2",
+				"channel": "515"
+			},
+			{
+				"name": "3",
+				"channel": "516"
+			},
+			{
+				"name": "4",
+				"channel": "517"
+			},
+			{
+				"name": "5",
+				"channel": "518"
+			},
+			{
+				"name": "6",
+				"channel": "519"
+			},
+			{
+				"name": "7",
+				"channel": "520"
+			},
+			{
+				"name": "8",
+				"channel": "521"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "453",
+		"stn_name": "彌陀-舊港抽水站",
+		"lon": 120.2257251,
+		"lat": 22.8031971,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "永安區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "522"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "454",
+		"stn_name": "鎮東一街",
+		"lon": 120.313498,
+		"lat": 22.590487,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "523"
+			},
+			{
+				"name": "2",
+				"channel": "524"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "455",
+		"stn_name": "鎮東三街",
+		"lon": 120.312321,
+		"lat": 22.589476,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "",
+				"channel": "525"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "456",
+		"stn_name": "鎮洲站",
+		"lon": 120.308824,
+		"lat": 22.587708,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "526"
+			},
+			{
+				"name": "2",
+				"channel": "527"
+			},
+			{
+				"name": "3",
+				"channel": "528"
+			},
+			{
+				"name": "4",
+				"channel": "529"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "457",
+		"stn_name": "寶珠溝",
+		"lon": 120.3052782,
+		"lat": 22.65259558,
+		"source": "水利局",
+		"type": "抽水截流站",
+		"town": "三民區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "1",
+				"channel": "530"
+			},
+			{
+				"name": "4",
+				"channel": "533"
+			},
+			{
+				"name": "2",
+				"channel": "531"
+			},
+			{
+				"name": "3",
+				"channel": "532"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "458",
+		"stn_name": "大中地下道",
+		"lon": 120.3063641,
+		"lat": 22.68479521,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "左營區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "LED西向",
+				"channel": "534"
+			},
+			{
+				"name": "LED東向",
+				"channel": "535"
+			},
+			{
+				"name": "東向",
+				"channel": "537"
+			},
+			{
+				"name": "西向",
+				"channel": "536"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "459",
+		"stn_name": "大寮捷運地下道",
+		"lon": 120.3916034,
+		"lat": 22.62070579,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "大寮區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "LED西向",
+				"channel": "538"
+			},
+			{
+				"name": "LED東向",
+				"channel": "539"
+			},
+			{
+				"name": "西向",
+				"channel": "540"
+			},
+			{
+				"name": "站體",
+				"channel": "541"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "460",
+		"stn_name": "大樹新鎮地下道",
+		"lon": 120.4196405,
+		"lat": 22.64893771,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "大樹區",
+		"basin": "高屏溪",
+		"cctv_series": [
+			{
+				"name": "站體",
+				"channel": "542"
+			},
+			{
+				"name": "南下",
+				"channel": "543"
+			},
+			{
+				"name": "LED北上",
+				"channel": "544"
+			},
+			{
+				"name": "LED南下",
+				"channel": "545"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "461",
+		"stn_name": "中正地下道",
+		"lon": 120.3216059,
+		"lat": 22.63017869,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "苓雅區",
+		"basin": "高雄圳",
+		"cctv_series": [
+			{
+				"name": "東向",
+				"channel": "546"
+			},
+			{
+				"name": "西向",
+				"channel": "547"
+			},
+			{
+				"name": "LED東向",
+				"channel": "548"
+			},
+			{
+				"name": "LED西向",
+				"channel": "549"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "462",
+		"stn_name": "仁武水管路地下道",
+		"lon": 120.3288867,
+		"lat": 22.70650254,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "仁武區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "機房",
+				"channel": "550"
+			},
+			{
+				"name": "西向",
+				"channel": "551"
+			},
+			{
+				"name": "LED西向",
+				"channel": "552"
+			},
+			{
+				"name": "LED東向",
+				"channel": "553"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "463",
+		"stn_name": "岡山大德一路地下道",
+		"lon": 120.3000998,
+		"lat": 22.79683495,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "站體",
+				"channel": "554"
+			},
+			{
+				"name": "西向",
+				"channel": "555"
+			},
+			{
+				"name": "LED西向",
+				"channel": "556"
+			},
+			{
+				"name": "LED東向",
+				"channel": "557"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "464",
+		"stn_name": "岡山大德三路地下道",
+		"lon": 120.3008884,
+		"lat": 22.78933261,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "站體",
+				"channel": "558"
+			},
+			{
+				"name": "東向",
+				"channel": "559"
+			},
+			{
+				"name": "LED西向",
+				"channel": "560"
+			},
+			{
+				"name": "LED東向",
+				"channel": "561"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "465",
+		"stn_name": "岡山岡燕路地下道",
+		"lon": 120.3005505,
+		"lat": 22.79234448,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "岡山區",
+		"basin": "阿公店溪",
+		"cctv_series": [
+			{
+				"name": "機房",
+				"channel": "562"
+			},
+			{
+				"name": "西向",
+				"channel": "563"
+			},
+			{
+				"name": "LED東向",
+				"channel": "564"
+			},
+			{
+				"name": "LED西向",
+				"channel": "565"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "466",
+		"stn_name": "前鎮地下道",
+		"lon": 120.326035,
+		"lat": 22.584503,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "南下",
+				"channel": "566"
+			},
+			{
+				"name": "北上",
+				"channel": "567"
+			},
+			{
+				"name": "LED南下",
+				"channel": "568"
+			},
+			{
+				"name": "LED北上",
+				"channel": "569"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "467",
+		"stn_name": "惠民地下道",
+		"lon": 120.3250988,
+		"lat": 22.73052068,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "地下道東向",
+				"channel": "570"
+			},
+			{
+				"name": "LED看板東向",
+				"channel": "571"
+			},
+			{
+				"name": "LED看板西向",
+				"channel": "572"
+			},
+			{
+				"name": "地下道西向",
+				"channel": "579"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "468",
+		"stn_name": "新生地下道",
+		"lon": 120.322241,
+		"lat": 22.56952894,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "前鎮區",
+		"basin": "小港沿海",
+		"cctv_series": [
+			{
+				"name": "南下",
+				"channel": "573"
+			},
+			{
+				"name": "LED南下",
+				"channel": "574"
+			}
+		]
+	},
+	{
+		"cctv_stn_series": "469",
+		"stn_name": "楠梓地下道",
+		"lon": 120.3225585,
+		"lat": 22.72544007,
+		"source": "水利局",
+		"type": "車行地下道",
+		"town": "楠梓區",
+		"basin": "左營沿海",
+		"cctv_series": [
+			{
+				"name": "西向",
+				"channel": "575"
+			},
+			{
+				"name": "東向",
+				"channel": "576"
+			}
+		]
+	}
+]

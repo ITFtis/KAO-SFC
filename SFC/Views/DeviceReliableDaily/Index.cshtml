@@ -1,0 +1,73 @@
+﻿<link href="~/Content/douModal.css" rel="stylesheet" />
+<style>
+    body {
+        --dou-menu-height: 0 !important;
+    }
+    header.fixed-top{
+        display:none;
+    }
+</style>
+@using Dou.Misc.Extension
+@using SFC.Controllers.Device
+
+
+
+@Html.DataManagerOptionsJavascript(".data-manager-container_", "douoptions")
+@Html.MenuMap()
+
+@*@Html.DataManagerTable()*@
+<table class="data-manager-container data-manager-container_"> </table>
+
+
+
+
+<script>
+    $(document).ready(() => {
+        $(".data-manager-container_").DouEditableTable(douoptions); //初始dou table
+
+        // 篩選測站
+        var getSelectedStations = () => {
+
+            // 取得參數
+            var countyCode = $('select[data-fn="CountyName"]').val();
+            var manufactureCode = $('select[data-fn="manufacturer"]').val();
+
+            var options = $('select[data-fn="stt_name"] option');
+
+            // 重置
+            options.each((index , item) => {
+                $(item).attr("style", "display:block");
+            });
+
+            // 篩選縣市
+            if (countyCode && countyCode.trim().length > 0 && countyCode != 'all')
+                options.each((index, item) => {
+                    var $this = $(item);
+                    if ($this.attr("data-county") != countyCode)
+                        $this.attr("style", "display:none");
+
+
+                });
+
+            // 篩選製造商
+            if (manufactureCode && manufactureCode.trim().length > 0 && manufactureCode != 'all')
+                options.each((index, item) => {
+                    var $this = $(item);
+                    if ($this.attr("data-manufacture") != manufactureCode)
+                        $this.attr("style", "display:none");
+                });
+        }
+
+
+        //創建連動關係
+        $('select[data-fn="CountyName"]').on("change", () => {
+            getSelectedStations();
+        })
+
+        $('select[data-fn="manufacturer"]').on("change", () => {
+            getSelectedStations();
+        })
+
+    })
+
+</script>

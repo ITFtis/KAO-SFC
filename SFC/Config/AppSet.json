@@ -1,0 +1,20 @@
+{
+	"WraFmgApiUrl": "https://fmg.wra.gov.tw/swagger/api/",
+	"WraFhyApiUrl": "https://fhy.wra.gov.tw/api/v2/",
+	"WraFhyApiKey": "XEzkLbaHalfdYuaV0ahvzhbWeqsmkGlg",
+	"KHNewSewerSource": "https://wrbswi.kcg.gov.tw/SFC/",
+	"KhFloodinfoApiUrl": "https://floodinfo.kcg.gov.tw/service/api/db/",
+	"KhFloodinfoApiTokenUrl": "https://floodinfo.kcg.gov.tw/service/api/login",
+	"KhFloodinfoApiName": "kao",
+	"KhFloodinfoApiPwd": "2020@aptg",
+	"OUTSWMM": "https://www.dprcflood.org.tw/SFC/Data/OUTSWMM/",
+	"ks224": "http://203.145.221.124:1880/get_data/ks224",
+	"ks245": "http://203.145.221.124:1880/get_data/ks245",
+	"ks31": "http://203.145.221.124:1880/get_data/ks31",
+	"ks245ds": "http://203.145.221.124:1880/get_data/ks245ds",
+	"CWBDayRainfallUrl": "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Observation/O-A0040-003.kmz",
+	"CWBRadUrl": "https://qpeplus.cwa.gov.tw/static/data/grid_0.01deg/cref/",
+	"CWBQpf1h": "https://qpeplus.cwa.gov.tw/static/data/grid/qpfqpe_060min/",
+	"CpamiPostURL": "https://cityflood.cpami.gov.tw/SewerStare/api/A0001/Upload",
+	"CpamiPostKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJkIjoicGhsSG1uWUxxMUFqNnhrUWN1cUxTMDNvRU5fdVFBMURVcDZKUkY4cGdtRGh1R2l4VVhwdVJtdlA2WkplRUswbkFaZk9rLU5NM0tQN3pPeG54LWNKZERmTTUyQzMwZ0w1In0.b9kO7MFescsfAa0Xf4rJ8GHEopGz7x89V6xDZRi4ri8"
+}

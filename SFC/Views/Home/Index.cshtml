@@ -1,0 +1,138 @@
+﻿@using Dou.Misc
+<style>
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url('@Url.Content("~/images/bg/高雄密網入口網底圖.png")');
+        background-size:cover;
+    }
+    .body-content {
+        height: calc( 100% - var(--dou-menu-height) ) !important;
+        padding-right: 0;
+    }
+    footer{
+        display:none;
+    }
+    .img-title-container {
+        padding-top: 3vh;
+        height: 17.5vh;
+    }
+    .home-container {
+        height: calc( 100% - 17.5vh ) !important;
+        padding: 2vh 4vw;
+        justify-content:center;
+    }
+    .home-container > .wlink{
+        padding:1.75vw;
+        max-width:calc( 400px + 6rem);
+        min-height:300px;
+    }
+    .home-container > .wlink > .c{
+        height:100%;
+        width:100%;
+        padding:1rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        border-radius:.4rem;
+    }
+    .home-container > .wlink .btn{
+    border:2px white solid;
+    }
+    .home-container > .wlink .link-title ,.home-container > .wlink a {
+        text-align:center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        text-justify: inter-word;
+        font-size: 2.2rem;
+        text-shadow: 1px 1px 5px black,-1px -1px 5px black;
+    }
+    .home-container > .wlink a {
+        display:inline-block;
+        width:100%;
+        font-size: 1.75rem;
+    }
+    .home-container > .link1 > .c{
+        background-color:rgba(200, 194, 140, .6);
+    }
+    .home-container > .wlink .img-c {
+        background-size: cover;
+        background-origin:content-box;
+        background-position:center;
+        background-size:contain;
+        background-repeat:no-repeat;
+        width: 100%;
+        height: calc( 100% - 40px);
+    }
+    .home-container > .link1  .img-c {
+        background-image: url('@Url.Content("~/images/bg/img1.png")');
+    }
+    .home-container > .link2 > .c{
+        background-color:rgba(177, 83, 85, .6);
+    }
+    .home-container > .link2 .img-c{
+        background-image: url('@Url.Content("~/images/bg/img2.png")');
+    }
+    .home-container > .link3> .c{
+        /*background-color:rgba(35, 76, 121,.6);*/
+        background-color:rgba(16, 35, 69,.6);
+    }
+    .home-container > .link3 .img-c{
+        background-image: url('@Url.Content("~/images/bg/img3.png")');
+    }
+
+    .img-title-container img {
+        height: 75%;
+        width: auto;
+        max-width:50%;
+    }
+    .img-title-container img:nth-child(2) {
+        height: 100%;
+    }
+  /*  .dou-menu > .container-fluid > *:not(.menu-title){
+        display:none !important;
+    }*/
+    @@media (max-width:1024px) {
+        /*  .home-container > .wlink {
+            padding: 1rem;
+        }*/
+    }
+    @@media (max-width: 576px) {
+        .home-container{
+            padding:0;
+            margin:0;
+        }
+        .home-container > .wlink{
+            padding:.5rem;
+        }
+        .home-container > .wlink a {
+            font-size: 1.2rem;
+        }
+
+        .body-content {
+            height: auto !important;
+        }
+        .img-title-container{
+            display:none !important;
+        }
+    }
+</style>
+<div class="img-title-container   d-flex justify-content-between">
+    <img src="~/images/bg/wrbtitle.png" />
+    <img src="~/images/bg/文字圖塊.png" style="float:right;" />
+</div>
+<div class="home-container container-fluid row">
+    @if (Menu.FindCurrentUserMenuItemByControllerName("RtHydro") != null)
+    {
+        <div class="col-sm-4 link1 wlink"><div class="c"><label class="link-title">即時監測資訊</label><div class="img-c"></div><div class="btn btn-outline-info "><a href="@(Url.Action("Index", "RtHydro"))" title="即時監測資訊">更多 >></a></div></div></div>
+    }
+    @if (Menu.FindCurrentUserMenuItemByControllerName("SFM") != null)
+    {
+        <div class="col-sm-4 link2 wlink"><div class="c"><label class="link-title">智慧淹水模式</label><div class="img-c"></div><div class="btn btn-outline-success"><a href="@(Url.Action("Index", "SFM"))" title="淹水預警模擬">更多 >></a></div></div></div>
+    }
+    @if (Menu.FindCurrentUserMenuItemByControllerName("F3DS") != null)
+    {
+        <div class="col-sm-4 link3 wlink"><div class="c"><label class="link-title">寶珠溝示範區</label><div class="img-c"></div><div class="btn btn-outline-secondary"><a href="@(Url.Action("Index", "BCD"))" title="寶珠溝示範區">更多 >></a></div></div></div>
+    }
+</div>

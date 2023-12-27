@@ -1,0 +1,92 @@
+﻿body {
+    --chart_bg:1;
+}
+.bc-st-info{
+    padding:.3rem;
+}
+.popu-ctrl-container .popu-ctrl[class*="jsPanel-bc-st-info-"] {
+    border-radius: 1rem;
+    border:2px solid #ddd;
+}
+.popu-ctrl-container .popu-ctrl[class*="jsPanel-bc-st-info-"] > .jsPanel-hdr,
+.popu-ctrl-container .popu-ctrl[class*="jsPanel-bc-st-info-"] > .jsPanel-content{
+    background:#345d84;
+}
+.popu-ctrl-container .popu-ctrl > .jsPanel-content > .bc-st-info {
+    overflow:hidden;
+}
+.popu-ctrl-container .popu-ctrl.warning[class*="jsPanel-bc-st-info-"] > .jsPanel-hdr,
+.popu-ctrl-container .popu-ctrl.warning[class*="jsPanel-bc-st-info-"] > .jsPanel-content {
+    background: red;
+}
+.bc-st-info .meterInfoTemplateContent > table > tbody > tr:nth-child(even) {
+    background-color: transparent;
+}
+.bc-st-info .meterInfoTemplateContent > table > tbody > tr > td {
+    font-size: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    /*border-width:1px;*/
+}
+.bc-st-info .meterInfoTemplateContent > table > tbody > tr > td{
+    /*width:6.375rem;*/
+}
+.bc-st-info .meterInfoTemplateContent > table > tbody > tr > td:nth-child(1) > span {
+    margin:0;
+}
+.bc-st-info .meterInfoTemplateContent > table > tbody > tr > td:nth-child(even) > span {
+    /*background-color: white;*/
+    background:#fff;
+    display:inline-block;
+    color: black;
+    width:100%;
+    padding:.2rem;
+    
+}
+
+/*********chart********/
+.jsPanel.jsPanel-chart-ctrl, .jsPanel-chart-ctrl > .jsPanel-content {
+    background-color: transparent;
+}
+.jsPanel-chart-ctrl > .jsPanel-content {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255,255,255, var(--chart_bg) )
+}
+.chart-ctrl{
+    height:100%;
+}
+.chart-ctrl > .chart {
+    height: calc( 100% - 34px - 1rem );/*jsPanel-hdr height 34px*/
+    /*background-color: gray;*/
+    
+}
+.tooltip-title{
+    display:inline-block;
+    width:80px;
+}
+.tooltip-value {
+    display: inline-block;
+    font-weight:bold;
+}
+.polygon-label.water_normal{
+    font-size:1rem;
+}
+/*#arrow-ctrl, #arrow-ctrl >*{
+    position: absolute;
+}
+
+.arrow-ctrl-panel {
+    width: 100px;
+    background-color: lightblue;
+}
+#arrow-ctrl > span{
+    z-index:9;
+}
+#arrow-ctrl:hover >  span{
+    display:none;
+}
+#arrow-ctrl:hover > span + .arrow-ctrl-panel {
+    margin-left: -100px;
+}*/

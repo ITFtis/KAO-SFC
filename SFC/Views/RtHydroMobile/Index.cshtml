@@ -1,0 +1,34 @@
+﻿<script>
+    window.baselayername = "銀白";
+</script>
+<style>
+    @@media (max-width: 840px) {
+        body {
+            --dou-menu-height: 42px;
+        }
+    }
+    .dou-menu > .container-fluid > *:not(.menu-title) {
+        display: none !important;
+    }
+    #main-ctrl .nav-tabs > .nav-item:last-child{
+        display: none !important;
+    }
+    .item-title,
+    .non-public,
+    .zoom-in-ctrl,
+    .infowindow-淹水感測設備 .glyphicon-info-sign,
+    .rain-c .filter-container > *:first-child, /*不給水利局*/
+    .leaflet-popup-content .carousel:not(.cctv-info-content) .carousel-control, /*歷線*/
+    .pin-ctrl:not(.kh-cctv-ctrl) > .ctrl > label:nth-child(2), /*pinctrl 標籤*/
+    .pin-ctrl:not(.kh-cctv-ctrl) > .ctrl > label:nth-child(3) { /*pinctrl 清單*/
+        display: none !important;
+    }
+
+    .rain-c .filter-container > *{
+        width:50% !important;
+    }
+
+</style>
+@Html.Partial("~/Views/RtHydro/Index.cshtml")
+
+

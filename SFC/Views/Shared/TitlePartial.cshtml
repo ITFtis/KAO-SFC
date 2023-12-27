@@ -1,0 +1,23 @@
+﻿
+@GetTitle()
+@helper GetTitle()
+{
+    var user = Dou.Context.CurrentUser<Dou.Models.UserBase>();
+    var conroller = Html.ViewContext.Controller;
+
+    var theMenuDefAttribute = Dou.Misc.HelperUtilities.GetTypeAttr<Dou.Misc.Attr.MenuDefAttribute>(conroller.GetType());
+
+    if (theMenuDefAttribute != null)
+    {
+        var title = theMenuDefAttribute.Name;
+        if (theMenuDefAttribute.ActionController == "Home" && theMenuDefAttribute.Action == "Index")
+        {
+            title = user.Name + " 您好!!";
+        }
+        <div class="right-section-img shadow rounded-3 overflow-hidden position-relative">
+            <img src="@theMenuDefAttribute.Icon" alt="">
+            <span class="position-absolute top-50 start-0 fw-bold fs-2 greet news-header">@title</span>
+        </div>
+    }
+
+}

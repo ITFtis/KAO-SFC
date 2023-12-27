@@ -1,0 +1,46 @@
+﻿<link rel="stylesheet" href="~/Content/prj/ddashboard.css" />
+
+@*<script src="~/Scripts/prj/data.js"></script>
+<script src="~/Scripts/prj/sub/floodQuery.js"></script>
+<script src="~/Scripts/prj/createMapHelper.js"></script>
+<script src="~/Scripts/prj/ddashboard.js"></script>*@
+@Scripts.Render("~/Scripts/prj/ddashboard")
+<div class="popu-ctrl-container"></div>
+<div class="display-container">
+
+    <div class="left-container">
+        <div class="sta sta-disaster">
+            @*<label class="data-title">積淹水通報災情</label>*@
+            <div class="data-container-row">
+                <div class="data-container green_status"><label class="title">總計</label><div class="data t">-</div></div>
+                <div class="data-container red_status"><label class="title">未退水</label><div class="data f">-</div></div>
+                <div class="data-container blue_status"><label class="title">已退水</label><div class="data uf">-</div></div>
+            </div>
+        </div>
+        <div class="sta sta-town">
+            @*<div class="county-title"><label>北部地區</label></div>
+                <div class="county-row">
+                    <div class="county-data" data-county="基隆市"><label class="title"></label><div class="data"><label class="t">-</label><label class="f">-</label>/<label class="uf">-</label></div><div class="no-data"><label>-</label></div></div>
+                    <div class="county-data" data-county="宜蘭縣"><label class="title"></label><div class="data"><label class="t">-</label><label class="f">-</label>/<label class="uf">-</label></div><div class="no-data"><label>-</label></div></div>
+                </div>*@
+        </div>
+    </div>
+    <div class="right-container">
+        <div class="event-title-container">
+            <label class="event-title">---</label>
+            <label class="dt">-</label>
+        </div>
+        <div id="map">
+            <div class="legend-container">
+                <div><img src="~/images/pin/Flood_p.png"><label>未退水</label></div>
+                <div><img src="~/images/pin/Flood_b.png"><label>已退水</label></div>
+                <div><img src="~/images/pin/Flood_r_7.png"><label>淹水感測未退水</label></div>
+                <div><img src="~/images/pin/Flood_b_7.png"><label>淹水感測已退水</label></div>
+            </div>
+        </div>
+        <div class="list-container">
+
+        </div>
+    </div>
+
+</div>

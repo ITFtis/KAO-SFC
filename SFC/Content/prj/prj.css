@@ -1,0 +1,151 @@
+﻿body {
+    --dou-menu-height: 57px;
+}
+.body-content {
+    padding-top: var(--dou-menu-height) !important;
+    min-height: calc( 100% - var(--dou-menu-height) ) !important;
+ }
+.dou-menu {
+    background: #8FAADC;
+    background: -moz-radial-gradient(center, ellipse cover, #345d84 0%, #8FAADC 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #345d84), color-stop(100%, #8FAADC));
+    background: -webkit-radial-gradient(center, ellipse cover, #345d84 0%, #8FAADC 100%);
+    background: -o-radial-gradient(center, ellipse cover, #345d84 0%, #8FAADC 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #345d84 0%, #8FAADC 100%);
+    background: radial-gradient(ellipse at center, #345d84 0%,#8FAADC 100%);
+    background-size: 250% 250%;
+}
+
+.dou-menu.navbar.bg-dark .navbar-nav .dropdown-menu {
+    background-color: #547da4!important;
+}
+
+.dou-menu .menu-title{
+    /*display:contents;*/
+    display:flex;
+    align-items:center;
+}
+.dou-menu.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+/*.dou-menu li.nav-item:not(.dropdown):not(:last-child){
+    border-bottom:1px #446d94 solid;
+}*/
+.dou-menu li > .dou-action-controller-root, .dou-menu li > .dou-action-controller, .dou-menu > li > .dou-action-controller {
+    color:rgba(255,255,255,.75) !important;
+}
+.dou-menu li > a{
+    font-weight:bold;
+    font-size:1rem;
+}
+.dou-menu li > a > img {
+    width: 1.5rem;
+}
+.title-image{
+    height:40px;
+    margin-right:.3rem;
+}
+.title-name {
+    padding-left:.5rem;
+    height: calc( var(--dou-menu-height) - 14px );
+    /*color: #1f1f1f;*/
+    color: #00008b;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -.1rem;
+    text-shadow: .5px .5px 0px #ffffff,0px 0px 1px #ffffff;
+    text-shadow: 0.5px 0.5px 2px #00008b, -0.5px -0.5px 2px #00008b;
+    filter: blur(.4px);
+}
+.system-manager-jsPanel.data-edit-jspanel .rtree-leaf .permission {
+    top: -3px;
+    padding: 2px 2px;
+}
+
+.system-manager-jsPanel.data-edit-jspanel .rtree-leaf .permission.disabled {
+    display: none !important;
+}
+
+.RtHydro.rtree-leaf .permission:not(.selected) {
+    opacity: .3;
+}
+
+.RtHydro .permission:before {
+    background-size: 1rem 1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+}
+
+.RtHydro .permission-ext1:before {
+    background-image: url(../../images/pin/抽水站_待命.png);
+}
+
+.RtHydro .permission-ext2:before {
+    background-image: url(../../images/pin/水庫_未放水.png);
+}
+
+.RtHydro .permission-ext3:before {
+    background-image: url(../../images/pin/潮位站.png);
+}
+
+.RtHydro .permission-ext4:before {
+    background-image: url(../../images/pin/雨量站_正常.png);
+}
+
+.resize-ctrl {
+    display: none;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    opacity: .3;
+}
+.resize-ctrl:hover{
+    opacity:.8;
+}
+.resize-ctrl.show {
+    display: block;
+}
+body > header .dou-menu .dou-action-controller-root {
+    background-color: rgba(255,255,255,.1);
+    border-radius:.3rem;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu{
+    width:auto;
+}
+a.home_ctrl{
+    display:none;
+}
+@media (max-width: 1200px) {
+    .dou-menu .title-image {
+        width: 36px;
+        object-fit: cover;
+        object-position: left;
+    }
+}
+@media (max-width: 840px) {
+    .dou-menu .title-image{
+        display:none;
+    }
+}
+@media (max-width: 400px) {
+    .dou-menu .user-profile-nav {
+        display: none;
+    }
+
+    .title-name {
+        height: calc( var(--dou-menu-height) - 20px );
+    }
+}
+@media (max-width: 768px) {
+    .fixed-at-left.fixed-single > .fix-popu-ctrl-toleft {
+        top: var(--dou-menu-height) !important;
+    }
+    .fixed-at-left.fixed-single > .fix-popu-ctrl-toleft:not(.ctrl-transition-ing):not(.fixed-show) {
+        top: var(--dou-menu-height) !important;
+    }
+    .fixed-at-left.fixed-single > .fix-popu-ctrl-toleft > .jsPanel-content {
+        height: calc(100% - 92px ) !important;
+    }
+}

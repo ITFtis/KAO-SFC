@@ -1,0 +1,19 @@
+2023-10-23 18:04:49,223  INFO [1] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:04:49,239  INFO [1] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:04:50,260  INFO [9] (BkTask:225) - ­I´ºTaskLoop on thread ID: 9
+2023-10-23 18:06:07,181  INFO [29] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:06:07,198  INFO [29] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:06:08,210  INFO [30] (BkTask:225) - ­I´ºTaskLoop on thread ID: 30
+2023-10-23 18:07:17,708  INFO [36] (BkTask:225) - ­I´ºTaskLoop on thread ID: 36
+2023-10-23 18:09:33,943  INFO [29] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:09:33,964  INFO [29] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:09:34,978  INFO [33] (BkTask:225) - ­I´ºTaskLoop on thread ID: 33
+2023-10-23 18:13:19,318  INFO [29] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:13:19,334  INFO [29] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:13:20,348  INFO [44] (BkTask:225) - ­I´ºTaskLoop on thread ID: 44
+2023-10-23 18:17:09,919  INFO [65] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:17:09,936  INFO [65] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:17:10,949  INFO [73] (BkTask:225) - ­I´ºTaskLoop on thread ID: 73
+2023-10-23 18:19:51,170  INFO [47] (MvcApplication:46) - SFC Application_Start
+2023-10-23 18:19:51,182  INFO [47] (BkTask:29) - ±Ò°ÊBkTask­I´º
+2023-10-23 18:19:52,196  INFO [22] (BkTask:225) - ­I´ºTaskLoop on thread ID: 22

@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SFC</name>
+    </assembly>
+    <members>
+        <member name="M:SFC.Controllers.Api.DataController.KhFloodinfo(System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            取高雄水利局資料
+            </summary>
+            <param name="para0">取資料路徑</param>
+            <param name="para1">取資料路徑</param>
+            <param name="para2">取資料路徑</param>
+            <param name="para3">取資料路徑</param>
+            <returns>JToken</returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.DataController.KHToken(System.Int32)">
+            <summary>
+            取高雄水利局資料token
+            </summary>
+            <returns>JToken</returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.DataController.GetSewerSerInfo(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="start">格式yyyy-MM-ddTHH:mm:ss</param>
+            <param name="end">格式yyyy-MM-ddTHH:mm:ss</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.DCDataController.GetSOPDInfo(System.Double,System.String)">
+            <summary>
+            設施情境警戒評估資料
+            </summary>
+            <param name="adjust">將原演算資料(即時、預報)，如有必要可依參數調整(如測試)</param>
+            <param name="all"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.FmgController.GetFmgCctv(System.String)">
+            <summary>
+            取水情影像雲端平台資料
+            </summary>
+            <param name="url">https://fmg.wra.gov.tw/swagger/api/XXXXX，XXXX部分相對路徑，或絕對路徑</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.FmgController.GetFmgSource(System.String)">
+            <summary>
+            fmg資料來源
+            </summary>
+            <param name="apiurlbase"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.FmgController.GetFmgAllCctvStation(System.String,System.Int32)">
+            <summary>
+            取fmg所有cctv基本資料
+            </summary>
+            <param name="apiurlbase"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.FmgController.GetFmgCctvCameras(System.String,System.String,System.String)">
+            <summary>
+            一條件取cctv站的即時影像
+            </summary>
+            <param name="id"></param>
+            <param name="sourceid"></param>
+            <param name="apiurlbase"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetStations">
+            <summary>
+            取得所有測站資訊
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetStations(System.String)">
+            <summary>
+            取得單一測站基本資訊
+            </summary>
+            <param name="stt_no">測站名稱</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetDevices">
+            <summary>
+            取得所有感測器資訊
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetDevice(System.String)">
+            <summary>
+            取得單一測站基本資訊
+            </summary>
+            <param name="stt_no">測站名稱</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetRealTime">
+            <summary>
+            取得測站即時資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.HydraDevice.HydraDeviceController.GetHistorical(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            取得測站歷史資料
+            </summary>
+            <param name="stationId">測站ID</param>
+            <param name="deviceId">感測器ID</param>
+            <param name="start">搜尋起始時間(yyyy/MM/dd HH:mm)</param>
+            <param name="end">搜尋結束時間(yyyy/MM/dd HH:mm)</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.StationDevice.StationDeviceController.GetStations">
+            <summary>
+            取得所有測站資訊
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.StationDevice.StationDeviceController.GetStation(System.String)">
+            <summary>
+            取得單一測站資訊
+            </summary>
+            <param name="stt_no">測站名稱</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.StationDevice.StationDeviceController.GetRealTime">
+            <summary>
+            取得即時下水道水位資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.StationDevice.StationDeviceController.GetHistory(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            取得歷史下水道水位資料
+            </summary>
+            <param name="id">下水道測站ID</param>
+            <param name="start">搜尋起始時間(yyyy/MM/dd HH:mm)</param>
+            <param name="end">搜尋結束時間(yyyy/MM/dd HH:mm)</param>
+            <returns></returns>
+        </member>
+        <member name="M:SFC.Controllers.Api.StationDevice.StationDeviceController.PostCpamiData">
+            <summary>
+            上傳營建署，上傳前10分鐘內所有資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.dev_id">
+            <summary>
+            設備ID
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.datatime">
+            <summary>
+            資料時間
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.val">
+            <summary>
+            水位，需要再加上測站的底高才是真實水位高程
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.deviceBase">
+            <summary>
+            測站資訊
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.voltage">
+            <summary>
+            電壓
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.rssi">
+            <summary>
+            RSSI
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.mhole">
+            <summary>
+            人孔開關
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.uptype">
+            <summary>
+            上傳模式
+            </summary>
+        </member>
+        <member name="P:SFC.Models.DeviceLora.inserttime">
+            <summary>
+            資料匯入時間
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.stt_name">
+            <summary>
+            測站名稱
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.stt_no">
+            <summary>
+            測站代號
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.county_code">
+            <summary>
+            鄉鎮市區
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.urban_plan">
+            <summary>
+            都市計畫區
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.pip_num">
+            <summary>
+            雨水下水道
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.manhole_num">
+            <summary>
+            人孔編號
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.manhole_depth">
+            <summary>
+            人孔深度(m)
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.ground_level">
+            <summary>
+            人空路面高程
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.lon">
+            <summary>
+            經度
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.lat">
+            <summary>
+            緯度
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.deposit_date">
+            <summary>
+            建置日期
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.manager">
+            <summary>
+            管理單位
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.addr">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.pic_url">
+            <summary>
+            監測站照片位置
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.stt_purpose">
+            <summary>
+            測站種類及用途(雨水下水道監測、雨水抽水站監測、雨水調節池監測、氣象觀測、海象觀測、影像監視、其他)
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBase.desc">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:SFC.Models.StationBase.alarm1" -->
+        <!-- Badly formed XML comment ignored for member "P:SFC.Models.StationBase.alarm2" -->
+        <member name="P:SFC.Models.StationBase.sttDevs">
+            <summary>
+            對應Device
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBaseModel.stt_name">
+            <summary>
+            測站名稱
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBaseModel.stt_no">
+            <summary>
+            測站代號
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBaseModel.county_code">
+            <summary>
+            鄉鎮市區
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBaseModel.urban_plan">
+            <summary>
+            都市計畫區
+            </summary>
+        </member>
+        <member name="P:SFC.Models.StationBaseModel.manager">
+            <summary>
+            管理單位
+            </summary>
+        </member>
+    </members>
+</doc>

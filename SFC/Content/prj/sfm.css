@@ -1,0 +1,24 @@
+﻿body {
+}
+#main-ctrl select {
+    appearance: auto;
+}
+.event-container > * {
+    padding-left: .1rem;
+    padding-right: .1rem;
+    margin-bottom:.2rem;
+}
+#main-ctrl .legend .legend-icon, #main-ctrl .legend .legend-icon {
+    position: relative;
+}
+#main-ctrl .legend-name, #main-ctrl .legend-name {
+    position: absolute;
+    top: -6px;
+    left: 4px;
+    font-size: 10px;
+    color: black;
+}
+#main-ctrl .event-container select {
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
